@@ -22,9 +22,9 @@ export default function Dog(props) {
             case "gif":
                 return <img className="dogPicture" src={props.url} alt="dogPicture" />;
             case "webm":
-                return <div className="dogVideo"><ReactPlayer controls={true} playing={true} url={props.url} width={"350px"}/></div>
+                return <ReactPlayer controls={true} playing={true} url={props.url} width={"350px"}/>
             case "mp4":
-                return <div className="dogVideo"><ReactPlayer controls={true} playing={true} url={props.url} width={"350px"}/></div>
+                return <ReactPlayer className="reactPlayer" controls={true} playing={true} url={props.url}height={"100%"} width={"100%"}/>
             default:
                 return null
         }
