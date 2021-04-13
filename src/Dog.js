@@ -1,5 +1,5 @@
 import ReactPlayer from 'react-player'
-import './Dog.css';
+import './Styles.css';
 
 export default function Dog(props) {
 

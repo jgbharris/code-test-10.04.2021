@@ -1,5 +1,5 @@
 import GalleryPage from './GalleryPage.js'
-import './App.css';
+import './Styles.css';
 
 function App() {
   return (

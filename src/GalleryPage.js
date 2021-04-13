@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Dog from './Dog.js'
+import './Styles.css';
 
 export default function GalleryPage(props) {
 
@@ -16,10 +17,10 @@ export default function GalleryPage(props) {
 
     return (
         <div className="dogWrapper">
-            <div className="dogButton" >
-                <button className="dogButton" onClick={search}>
-                    GET ME DOGGOS
-                </button>
+            <div className="dogButtonContainer" >
+                    <button className="dogButton" onClick={search}>
+                        GET ME DOGGOS
+                    </button>
             </div>
             <div className="dogsRow">
                 {eightDogs ? eightDogs.map((dog) => (
