@@ -8,8 +8,7 @@ configure({ adapter: new Adapter() });
 
 
 it('renders without crashing', () => {
-  shallow(
-          <App />)
+  shallow(<App />)
 });
 
 it('renders dogWrapper', () => {
