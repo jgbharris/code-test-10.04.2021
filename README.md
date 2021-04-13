@@ -18,7 +18,6 @@ You will also see any lint errors in the console.
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 # Test requirements
 
@@ -34,15 +33,13 @@ The Dog component contains a switch statement that gets the file extension and t
 
 This was achieved using Media queries in Dog.css
 
-
 ## There should be a button to allow the user to fetch a new set of 8 random dogs
 
 The button is in the Gallery Page component and initiates the fetch using the onClick prop.
 
- ## The gallery will initially be empty until the user clicks the button for the first time
+## The gallery will initially be empty until the user clicks the button for the first time
 
- The Gallery Page component uses a ternary to map over the Dog component however if no dog data exists it renders empty divs.
-
+The Gallery Page component uses a ternary to map over the Dog component however if no dog data exists it renders empty divs.
 
 ## The page will need support common formats such as png, jpg, gif, mp4 and webm results
 
@@ -50,5 +47,5 @@ The Dog component contains a switch statement that gets the file extension and t
 
 ## Any videos should play automatically
 
-I used the React Player library (https://www.npmjs.com/package/react-player) for videos and set the playing prop to true to ensure videos played automartically.
+I used the React Player library (https://www.npmjs.com/package/react-player) for videos and set the playing prop to true to ensure videos played automatically.
 
