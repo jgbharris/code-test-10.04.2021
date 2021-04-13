@@ -31,7 +31,7 @@ The Dog component contains a switch statement that gets the file extension and t
 
 ## The page should be responsive:
 
-This was achieved using Media queries in Dog.css
+This was achieved using Media queries in Styles.css
 
 ## There should be a button to allow the user to fetch a new set of 8 random dogs:
 
